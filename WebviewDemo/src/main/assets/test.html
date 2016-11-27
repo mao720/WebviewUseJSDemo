@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<script type="text/javascript">
+    function showAndroidToast(toast) {
+        Android.showToast(toast);
+    }
+    
+    function changeInputValue(content){
+    	document.getElementById("put_id").value=content;
+    }
+    
+</script>
+
+</head>
+<body>
+<input type="button" value="Say hello" onClick="showAndroidToast('hello android')" />
+<input type="text" value="hello android" id="put_id" />
+</body>
+</html>
